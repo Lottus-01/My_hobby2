@@ -77,6 +77,78 @@ width: 450px;
   z-index: 98;
 }
 
+.jogo1{
+  position: relative;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+.textojogo1{
+  position: absolute;
+  height: 300px;
+  width: 550px;
+  top: 850;
+  left: 350px;
+
+  z-index: 98;
+}
+.textojogo2{
+  position: absolute;
+  height: 300px;
+  width: 550px;
+  top: 1150;
+  left: 350px;
+
+  z-index: 98;
+}
+.textojogo3{
+  position: absolute;
+  height: 300px;
+  width: 550px;
+  top: 1480;
+  left: 350px;
+
+  z-index: 98;
+}
+
+
+.jogo2{
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.jogo3{
+  width: 260px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.basejogo{
+  width: auto;
+  height: auto;
+  background-color: rgba(26, 5, 6, 0.671);
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  margin: 30px 600px 15px 10px;
+  position: relative;
+  border: solid 1px hwb(38 7% 25% / 0.842); 
+  border-width: 1px 0px 1px 3px;
+
+  z-index: 97;
+}
+
+.basejogo2{
+  height: 100;
+  top: 850;
+  position: absolute;
+  background-color: rgba(26, 5, 6, 0.671);
+  right: 100;
+  padding: 10px;
+  height: 800;
+  width: 400;
+  margin: 10px 10;
+}
 .cherish{
   font-weight: 200px;
   position: absolute;
@@ -108,7 +180,7 @@ width: 450px;
   width: 1602px;
     height: auto;
     position: absolute;
-    top: 1780px;
+    top: 2150px;
     left: 150px;
     z-index: 99;
 
@@ -145,7 +217,7 @@ width: 450px;
 }
 .base3{
   width: auto;
-  height: 1700px;
+  height: 2100px;
   background-color: rgba(26, 5, 6, 0.671);
   padding: 40px;
   border-radius: 20px;
