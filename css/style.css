@@ -12,11 +12,55 @@
 
     border: solid 2px hwb(38 7% 25% / 0.842); 
 }
+
+.aguaviva{
+  position: absolute;
+  height: 800px;
+  right: 50px;
+  top: 10px;
+  z-index: 98;
+}
+.aguaviva3{
+  position: absolute;
+  height: 800px;
+  left: 5px;
+  top: 1400px;
+  z-index: 100;
+}
+.aguaviva5{
+  position: absolute;
+  height: 900px;
+  left: -150px;
+  top: -300px;
+  z-index: 98;
+}
+.aguaviva6{
+  position: absolute;
+  height: 900px;
+  right: -270px;
+  top: 800px;
+  z-index: 100;
+}
+.aguaviva7{
+  position: absolute;
+  height: 600;
+  right: -50;
+  top: 600;
+  z-index: 100;
+}
+.aguaviva8{
+  position: absolute;
+  height: 800px;
+  left: -230px;
+  top: -100;
+}
+
+
 .desenho1{
   width: 400px;
   height: auto;
   position: absolute;
-  top:755px;
+  top:750px;
   left: 1190px;
 
   border: solid 2px hwb(38 7% 25% / 0.842); 
@@ -87,7 +131,7 @@ width: 450px;
   position: absolute;
   height: 300px;
   width: 550px;
-  top: 850;
+  top: 850px;
   left: 350px;
 
   z-index: 98;
@@ -110,7 +154,19 @@ width: 450px;
 
   z-index: 98;
 }
-
+.texojogofav{
+   position: absolute;
+  height: 100px;
+  width: 380px;
+  top: 1150;
+  right: 150px;
+}
+.subtitulofav{
+  text-align: center;
+  font-family: "Vollkorn SC", serif;
+  font-weight: 00;
+  color: hwb(38 34% 15% / 0.842);
+}
 
 .jogo2{
   width: 250px;
@@ -139,16 +195,24 @@ width: 450px;
 }
 
 .basejogo2{
-  height: 100;
-  top: 850;
+  height: 100px;
+  top: 850px;
   position: absolute;
   background-color: rgba(26, 5, 6, 0.671);
-  right: 100;
+  right: 100px;
   padding: 10px;
   height: 800;
-  width: 400;
-  margin: 10px 10;
+  width: 440px;
+  margin: 10px 10px;
+  border-radius: 10px 10px 0px 0px;
+  border: solid 1px hwb(38 7% 25% / 0.842); 
 }
+
+.favjogo{
+  height: 230px;
+  border-radius: 10px;
+}
+
 .cherish{
   font-weight: 200px;
   position: absolute;
@@ -172,7 +236,7 @@ width: 450px;
     position: absolute;
     top: 2080px;
     left: 150px;
-    z-index: 99;
+    z-index: 100;
 
     border: solid 2px hwb(38 7% 25% / 0.842);
 }
@@ -182,7 +246,7 @@ width: 450px;
     position: absolute;
     top: 2150px;
     left: 150px;
-    z-index: 99;
+    z-index: 100;
 
     border: solid 2px hwb(38 7% 25% / 0.842);
 }
@@ -233,7 +297,7 @@ width: 450px;
 .titulo{
 font-family: "Vollkorn SC", serif;
   font-weight: 50;
-  color: hwb(38 34% 15% / 0.842);
+  color: hwb(38 25% 3% / 0.968);
 
   text-align: center;
   padding: 60px;
@@ -242,14 +306,14 @@ font-family: "Vollkorn SC", serif;
 .subtitulo{
 font-family: "Vollkorn SC", serif;
   font-weight: 00;
-  color: hwb(38 34% 15% / 0.842);
+  color: hwb(38 24% 1% / 0.952);
 }
 
 .textocorpo{
 font-family: "Vollkorn SC", serif;
   font-weight: 00;
   text-align: justify;
-  color: hwb(39 75% 6% / 0.842);
+  color: hwb(39 54% 0% / 0.918);
 }
 
 div{
