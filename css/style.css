@@ -149,6 +149,8 @@ width: 450px;
   z-index: 98;
 }
 
+/*acess of a new animation: jelly fish, on the books*/
+
 .livro1{
  width: 300px;
   height: auto;
@@ -162,7 +164,21 @@ width: 450px;
   z-index: 98;
   transition: width 1s, height 1s;
 }
-.livro1:hover{
+
+.baseintlivro1{
+  width: 470px;
+  height: auto;
+  position: absolute;
+  top:1550px;
+  left: 235px;
+  pointer-events: none;
+  
+  transition: opacity 0.3s ease 0.5s;
+  opacity: 0;
+  z-index: 99;
+}
+
+.livro1:hover {
     width: 320px;
     height: auto; 
     margin: -20px;
@@ -170,7 +186,10 @@ width: 450px;
     justify-content: center;
 }
 
-
+.Interactionjelly a:hover + .baseintlivro1{
+  animation: subir 1.5s ease-out;
+  opacity: 1;
+}
 
 .livro2{
    width: 300px;
@@ -185,12 +204,29 @@ width: 450px;
   z-index: 98;
    transition: width 1s, height 1s;
 }
+.baseintlivro2{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top:1560px;
+  left: 730px;
+  pointer-events: none;
+
+  transition: opacity 0.3s ease 0.5s;
+  opacity: 0;
+  z-index: 99;
+}
+
 .livro2:hover{
     width: 320px;
     height: auto; 
     margin: -20px;
     display: flex;
     justify-content: center;
+}
+.Interactionjelly a:hover + .baseintlivro2{
+  animation: subir 1.5s ease-out;
+  opacity: 1;
 }
 
 .livro3{
@@ -206,6 +242,19 @@ width: 450px;
   z-index: 98;
   transition: width 1s, height 1s;
 }
+.baseintlivro3{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top:1550px;
+  left: 1250px;
+  pointer-events: none;
+
+  transition: opacity 0.3s ease 0.5s;
+  opacity: 0;
+  z-index: 99;
+}
+
 .livro3:hover{
     width: 320px;
     height: auto; 
@@ -213,6 +262,28 @@ width: 450px;
     display: flex;
     justify-content: center;
 }
+.Interactionjelly a:hover + .baseintlivro3{
+  animation: subir 1.5s ease-out;
+  opacity: 1;
+}
+
+@keyframes subir {
+  0% {
+    transform: translateY(50px); 
+    opacity: 0;                   
+  }
+  25% {
+    transform: translateY(25px);  
+    opacity: 0.5;                   
+  }
+  100% {
+    transform: translateY(0px);  
+    opacity: 1;                  
+  }
+}
+
+
+/*base off the tests to animation the book selection*/
 
 .jogo1{
   position: relative;
