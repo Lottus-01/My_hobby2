@@ -23,17 +23,7 @@
   animation: emergir 30s ease-out infinite;
 }
 
-.transicao2 {
 
-  position: absolute;
-  z-index: 110;
-  right: -60%;
-  top: 1800px;           
-  transform: translateX(-50%); 
-  animation: emergir 30s ease-out infinite;
-
-  
-}
 @keyframes emergir {
   0% {
     top: 1800px; 
