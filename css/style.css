@@ -1,16 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 
-.welcome{
-    width: 800px;
-    height: auto;
+@media screen and (min-width: 1200px) {
+  .welcome {
     position: absolute;
+    width: 800px;       
+    left: 50%;        
     top: 90px;
-    left: 560px;
-    z-index: 99;
+    transform: translateX(-50%);
     border-radius: 10px;
-
-    border: solid 2px hwb(38 7% 25% / 0.842); 
+    border: solid 2px hwb(38 7% 25% / 0.842);
+    box-sizing: border-box;
+    z-index: 99;
+  }
 }
 
 .transicao {
@@ -122,6 +124,7 @@
     opacity: 0;
   }
 }
+
 
 .desenho1{
   width: 400px;
