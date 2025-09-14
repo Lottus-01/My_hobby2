@@ -22,7 +22,17 @@
   transform: translateX(-50%); 
   animation: emergir 30s ease-out infinite;
 }
+.transicao2 {
 
+  position: absolute;
+  z-index: 100;
+  right: -10%;
+  top: 1000px;           
+  transform: translateX(-50%); 
+  animation: emergir 30s ease-out infinite;
+  animation-delay:15s;
+  animation-fill-mode: backwards;
+}
 
 @keyframes emergir {
   0% {
@@ -53,7 +63,7 @@
 
   position: absolute;
   z-index: 100;
-  right: -60%;
+  right: -10%;
   top: 1000px;           
   transform: translateX(-50%); 
   animation: emergir 30s ease-out infinite;
@@ -90,7 +100,7 @@
 
   position: absolute;
   z-index: 100;
-  right: -80%;
+  right: -21%;
   top: 1000px;           
   transform: translateX(-50%); 
   animation: emergir 30s ease-out infinite;
