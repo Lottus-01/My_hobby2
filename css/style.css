@@ -13,16 +13,115 @@
     border: solid 2px hwb(38 7% 25% / 0.842); 
 }
 
-.transicao{
+.transicao {
+
   position: absolute;
-  z-index: 1000;
-  opacity: 0.7;
-  animation-name: retun;
-  animation: infinite;
-   
+  z-index: 100;
+  left: 6%;
+  top: 1800px;           
+  transform: translateX(-50%); 
+  animation: emergir 30s ease-out infinite;
 }
 
+.transicao2 {
 
+  position: absolute;
+  z-index: 110;
+  right: -60%;
+  top: 1800px;           
+  transform: translateX(-50%); 
+  animation: emergir 30s ease-out infinite;
+
+  
+}
+@keyframes emergir {
+  0% {
+    top: 1800px; 
+    opacity: 0;
+  }
+  50%{
+    top: 900px;
+    opacity: 1;
+  }
+  100% {
+    top: 0px; 
+    opacity: 0;
+  }
+}
+
+.transicao-2 {
+
+  position: absolute;
+  z-index: 100;
+  left: 6%;
+  top: 1500px;           
+  transform: translateX(-50%); 
+  animation: emergir 30s ease-out infinite;
+}
+
+.transicao2-2 {
+
+  position: absolute;
+  z-index: 100;
+  right: -60%;
+  top: 1000px;           
+  transform: translateX(-50%); 
+  animation: emergir 30s ease-out infinite;
+  animation-delay:15s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes emergir {
+  0% {
+    top: 1600px; 
+    opacity: 0;
+  }
+  50%{
+    top: 500px;
+    opacity: 1;
+  }
+  100% {
+    top: 0px; 
+    opacity: 0;
+  }
+}
+
+.transicao-3 {
+
+  position: absolute;
+  z-index: 120;
+  left: -2%;
+  top: 1500px;           
+  transform: translateX(-50%); 
+  animation: emergir 30s ease-out infinite;
+}
+
+.transicao2-3 {
+
+  position: absolute;
+  z-index: 100;
+  right: -80%;
+  top: 1000px;           
+  transform: translateX(-50%); 
+  animation: emergir 30s ease-out infinite;
+  animation-delay:15s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes emergir {
+  0% {
+    top: 1600px; 
+    opacity: 0;
+  }
+  50%{
+    top: 500px;
+    opacity: 1;
+  }
+  100% {
+    top: 0px; 
+    opacity: 0;
+  }
+}
 
 .desenho1{
   width: 400px;
@@ -61,7 +160,17 @@ width: 450px;
   border-radius: 10px;
 
   z-index: 98;
+  transition: width 1s, height 1s;
 }
+.livro1:hover{
+    width: 320px;
+    height: auto; 
+    margin: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .livro2{
    width: 300px;
@@ -74,6 +183,14 @@ width: 450px;
   border-radius: 10px;
 
   z-index: 98;
+   transition: width 1s, height 1s;
+}
+.livro2:hover{
+    width: 320px;
+    height: auto; 
+    margin: -20px;
+    display: flex;
+    justify-content: center;
 }
 
 .livro3{
@@ -87,6 +204,14 @@ width: 450px;
   border-radius: 10px;
 
   z-index: 98;
+  transition: width 1s, height 1s;
+}
+.livro3:hover{
+    width: 320px;
+    height: auto; 
+    margin: -20px;
+    display: flex;
+    justify-content: center;
 }
 
 .jogo1{
